@@ -52,20 +52,20 @@ while True:
     if resposta == result:
         print("Você acertou!!! Parabêns")   
         print("Deseja continuar respondendo desafios?? (Responda com 1 ou 2)")
-        palpite += 1
+       
         acerto += 1
         decisao_acerto = int(input(" 1 - Sim   |   2 - Não : "))
-        palpite -=1
+        
 
         if decisao_acerto == 2: 
             break
     else:
         while resposta != result:
             erro += 1
-            palpite += 1
+            
             print("Você errou, tente novamente, vamos lá você consegue")
             resposta = int(input(f"Quanto é {escolha} X {num_pc}?: "))
-            palpite -= 1
+            
             print(end="\n\n")
 
 print(f"O numero de perguntas respondidas foi {palpite}")

@@ -27,7 +27,7 @@ total_livros = 0
 preco_venda_total = 0 
 preco_venda_minimo = 9999999
 preco_venda_maximo = 0
-
+print("Para parar os lançamentos, digite 0")
 while True:
     num_pag = int(input("Digite o número de paginas do livro: "))
     if num_pag == 0:
