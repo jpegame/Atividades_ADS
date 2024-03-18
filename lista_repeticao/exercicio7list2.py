@@ -22,6 +22,8 @@ while True:
 
     if estoque == 2500:
         print("Metade do seu estoque esta disponivel")
+    elif estoque > 2500:
+        print("Mais da metade do seu estoque foi preenchido")
     elif estoque > 5000:
         print("ATENÇÃO!! O limite do estoque foi atingido!")
         break

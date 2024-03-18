@@ -32,8 +32,8 @@ while True:
     num_pag = int(input("Digite o número de paginas do livro: "))
     if num_pag == 0:
         break
-    encadernacao = int(input("Qual o tipo de encadernação? (1 - Simples, 2- Especial, 3- Luxo)"))
-    copias_vendidas = int(input("Digite o número de cópias que serão vendidas"))
+    encadernacao = int(input("Qual o tipo de encadernação? (1 - Simples, 2- Especial, 3- Luxo): "))
+    copias_vendidas = int(input("Digite o número de cópias que serão vendidas: "))
 
     custo_encadernacao = custos_encadernacao.get(encadernacao, 0)
     preco_minimo = custo_fixo + (pagina*num_pag) + custo_encadernacao

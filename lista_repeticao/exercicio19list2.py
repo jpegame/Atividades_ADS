@@ -72,7 +72,7 @@ print(f"O numero de perguntas respondidas foi {palpite}")
 print(f"O numero de acertos foi {acerto}")
 print(f"O numero de erros foi {erro}")
 
-print("Obrugado por estudar conosco, foi um prazer ter você por aqui!!")
+print("Obrigado por estudar conosco, foi um prazer ter você por aqui!!")
 print("FIM")
 
 
