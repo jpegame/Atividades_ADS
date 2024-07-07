@@ -9,7 +9,8 @@ codificada.'''
 # ord string to ascii
 
 list_str = list(input('Digite a frase a ser decodificada: '))
-for index, item in enumerate(list_str):
+for index in range(len(list_str)):
+  item = list_str[index]
   if ord(item) % 2:
     list_str[index] = chr(ord(item) // 2)
   elif item != ' ':
