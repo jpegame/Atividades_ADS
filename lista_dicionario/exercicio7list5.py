@@ -17,4 +17,4 @@ for aluno,notas in alunos_notas.items():
     if notas > maior_nota:
         maior_nota = notas
         nome_alMnota = aluno
-print(f"O Aluno com a maior nota foi o(a) {nome_alMnota}")
+print(f"O Aluno com a maior nota foi o(a) {nome_alMnota} , nota {maior_nota}")
