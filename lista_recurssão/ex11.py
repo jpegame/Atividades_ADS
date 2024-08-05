@@ -25,6 +25,6 @@ def main():
     lista_usuario = obter_lista_usuario()
     print("Número de elementos pares:", contar_pares(lista_usuario))
 
-if __name__ == "__main__":
-    main()
+
+main()
 
